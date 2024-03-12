@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: grey;
+}
+
+.headingLink {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 0.5rem;
+}
+.headingLink .links {
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+}
+.headingLink .bell {
+  margin-right: 3rem;
+}
+.headingLink .menu {
+  margin-left: 3rem;
+  display: flex;
+  justify-content: left;
+}
+.headingLink .menu .pagetitle {
+  font-size: 16px;
+}
+.headingLink a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+}
+
+.banner {
+  margin: 0;
+  height: 300px;
+  width: 100%;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding-top: 50px;
+}
+.banner .start {
+  position: relative;
+  margin: auto;
+  padding: 40px;
+  background-color: black;
+  opacity: 0.8;
+  width: 350px;
+  height: 200px;
+  color: white;
+  text-align: center;
+}
+.banner .start h2 {
+  font-family: "Great Vibes", cursive;
+  font-size: 35px;
+}
+.banner .btn-start {
+  background-color: red;
+  width: 200px;
+  height: 50px;
+  position: relative;
+  margin: auto;
+  margin-top: 30px;
+  padding-top: 10px;
+}
+
+.container {
+  width: 80%;
+  padding-top: 10px;
+}
+
+.tasktitle {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin-bottom: 30px;
+}
+
+#sort {
+  border-radius: 10px;
+  border-style: solid;
+  background-color: black;
+  opacity: 0.7;
+  color: white;
+  padding: 5px;
+}
+
+.card {
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+  padding: 40px 10px;
+}
+.card .card-title {
+  text-align: center;
+}
+
+.importanceLine {
+  display: flex;
+  justify-content: space-between;
+}
+
+.description {
+  text-align: center;
+}
+
+.priority {
+  display: flex;
+  justify-content: space-between;
+}
+.priority #level {
+  padding-top: 2%;
+  width: 40%;
+}
+
+.finish {
+  text-align: right;
+}
+
+@media (width <= 900px) {
+  .headingLink .links {
+    width: 80%;
+  }
+  .headingLink .bell {
+    margin-right: 0px;
+  }
+}/*# sourceMappingURL=style.css.map */
